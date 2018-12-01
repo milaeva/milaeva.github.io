@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    margin: 20px;
+    padding: 15px;
+    background-color:hotpink;
+}
+
+P {
+    color: black;
+}
+
+h {
+  color: darkblue;
+}
+
+.wrapper {
+    font-family: arial;
+}
+.wrapper {}
+.wrapper p {
+    margin-bottom: 25px;
+    font-size: 15px;
+    background-color: deepskyblue;
+    text-align: left;
+}
+.wrapper ul {
+    list-style: none;
+}
+.wrapper ul li {
+    float: none;
+    margin-right: 45px;
+    margin-top: none;
+    
+}
+p:hover {
+    background: orange;
+    color: blue;
+}
