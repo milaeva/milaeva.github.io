@@ -1,8 +1,4 @@
-body{
-    margin: 0;
-    padding: 0;
-    color: #383f45;
-}
+body {margin: 0; padding: 0; color: #383f45;}
 .clearfix:after {
     content: '';
     display: table;
@@ -18,10 +14,7 @@ header{
 }
 .container{
     width: 620px;
-    margin: 0 auto;
-   
-    
-}
+    margin: 0 auto;}
 .logo {
     float: center;
     margin-bottom: 40px;
@@ -42,6 +35,35 @@ nav {
 }
 .menu li{
     float: left;
+}
+div {
+    box-sizing: border-box;
+}
+header{
+    background: url(image/BACKGROUND.png) no-repeat center top/cover;        
+    padding-bottom: 120px;
+}
+.container{
+    width: 620px;
+    margin: 0 auto;
+}
+.logo{
+    float: center;
+    margin: 40px; 
+}
+nav {
+    float: cehter;
+    margin-top: 45px;
+    color: #fff;
+}
+.menu {
+  padding: 0;
+    margin: 0;
+    display: block;
+    
+}
+.menu li{
+    float:left;
     display: block;
     margin-right: 41px;
     font-size: 14px; 
@@ -63,6 +85,16 @@ h1{
     font-size: 64px;
     color: #fff;
     text-transform: uppercase;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 64px;
+    color: #fff;
+    text-transform: uppercase;
     text-align: center;
     margin-top: 79px;
 }
@@ -70,6 +102,7 @@ h1{
     font-size: 32px;
     color: #fff;
     text-transform: uppercase;
+
     text-align: center;
 }
 .button {
@@ -86,13 +119,12 @@ h1{
     font-weight: bold;
     font-size: 18px;
     margin-top: 80px;
-    
-}
+   }
+
 .title {
     padding-top: 65px;
 }
-.title img{
-   
+.title img{   
 }
 .title h3 {
     font-size: 18px;
@@ -103,8 +135,6 @@ h1{
     margin: 0;
     text-decoration: none;
     border-bottom: 1px solid #e2e3e4;
-    
-    
 }
 .title p {
     font-size: 14px;
@@ -124,9 +154,7 @@ h1{
     float: left;
     text-align: center;
     margin-bottom: 0;
-    margin: 60px 0;
-   
-    
+    margin: 60px 0;   
 }
 .services_item h4{
     font-size: 16px;
@@ -159,8 +187,7 @@ h1{
     /*text-transform: uppercase;*/
     font-weight: bold;
     font-size: 14px;
-    margin-top: 15px;
-    
+    margin-top: 15px;    
 }
 .button_2 {
     background: #d0d5db;
@@ -175,17 +202,60 @@ h1{
     /*text-transform: uppercase;*/
     font-weight: bold;
     font-size: 14px;
-    margin-top: 15px;
-    
+    margin-top: 15px;    
 }
 .contents{}
 .contents_item{
     /*width: 200px*/;
+    text-align: center;
+}
+.button {
+    background: #50c3af;
+    color: #f5f5f5;
+    border-radius: 35px;
+    display: block;
+    width: 235px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 80px;
+    
+}
+.title {
+    padding-top: 65px;
+}
+.title img{}
+
+.title h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #494c51;
+    margin: 0;
+}
+.title p {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    color: #a6a7a9;
+    margin-top: 5px;
+    line-height: 1.6em;
+}
+.services{
+     background: #eeeeee;
+}
+.services_item{
+    width: 200px;
     float: left;
     text-align: center;
     margin-bottom: 0;
-    margin: 60px 0;
-       
+    margin: 60px 0;       
 }
 .contents_item h4{
     font-size: 16px;
@@ -193,14 +263,12 @@ h1{
     margin-bottom: 10px;
     text-transform: uppercase;
     text-decoration: none;
-    border-bottom: 1px solid #e2e3e4;
-    
+    border-bottom: 1px solid #e2e3e4;    
 }
 .contents_item p{
     font-size: 14px;
     color: #7b7c7e;
-    line-height: 1.2em;
-    
+    line-height: 1.2em;    
 }
 .contents_item:last-child{
     float:  right;
@@ -210,8 +278,7 @@ h1{
     float: left;
     text-align: center;
     margin-bottom: 0;
-    margin: 60px 0;
-       
+    margin: 60px 0;       
 }
 .contents_item_2 h4{
     font-size: 16px;
@@ -284,6 +351,125 @@ footer {
     background-repeat: space;
 }
 
+.services_item h4{
+    font-size: 16px;
+    color: #7b7c7e;
+    margin-bottom: 10px;
+}
+.services_item p{
+    font-size: 14px;
+    color: #7b7c7e;
+    line-height: 1.6em;
+}
+.services_item:last-child{
+    float:  right;
+}
+.services_item:nth-child(2){
+    margin-left: 9px;
+}
+.button_1 {
+    background: #50c3af;
+    color: #f5f5f5;
+    border-radius: 15px;
+    /*display: block;*/
+    width: 100px;
+    padding: 10px 0;
+    margin: 10px auto;
+    text-decoration: none;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;    
+}
+.button_2 {
+    background: #d0d5db;
+    color: #f5f5f5;
+    border-radius: 15px;
+    /*display: block;*/
+    width: 100px;
+    padding: 10px 0;
+    margin: 10px aut  o;
+    text-decoration: none;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+    }
+.contents{}
+.contents_item{
+    /*width: 200px*/;
+    float: left;
+    text-align: center;
+    margin-bottom: 0;
+    margin: 60px 0;       
+}
+.contents_item h4{
+    font-size: 16px;
+    color: #7b7c7e;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.contents_item p{
+    font-size: 14px;
+    color: #7b7c7e;
+    line-height: 1.2em;    
+}
+.contents_item:last-child{
+    float:  right;
+}
+.contents_item_2{
+    /*width: 200px*/;
+    float: left;
+    text-align: center;
+    margin-bottom: 0;
+    margin: 60px 0;       
+}
+.contents_item_2 h4{
+    font-size: 16px;
+    color: #7b7c7e;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.contents_item_2 p{
+    font-size: 14px;
+    color: #7b7c7e;
+    line-height: 1.2em;
+}
+.contents_item_2:last-child{
+    float: right;
+}
+.contents_item_2:nth-child(2){
+    margin-left: 38px;
+}
+
+.read{
+    color: #71c9b0;
+}
+.contents_item_3 h4{
+    /*float: right;*/
+    font-size: 16px;
+    color: #7b7c7e;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.contents_item_3 p{
+    /*float: right;*/
+    font-size: 14px;
+    color: #7b7c7e;
+    line-height: 1.2em;
+}
+.services_item_2 h4{
+    font-size: 16px;
+    color: #7b7c7e;
+    margin: 10px;
+}
+.services_item_2 p{
+    font-size: 14px;
+    color: #7b7c7e;
+    line-height: 1.6em;
+}
 /*.services_item_2:last-child{
     float:  right;
 }*/
