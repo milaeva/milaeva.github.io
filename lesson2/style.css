@@ -71,6 +71,7 @@ a {
 	margin-left: 40px;
 	transition: text-shadow .2s;
 	border-bottom: 1px solid transparent;
+	text-decoration: none;
 }
 
 .top_menu a:first-child {
