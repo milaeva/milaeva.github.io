@@ -20,12 +20,14 @@ header {
 	color: #fff;
 	text-align: center;
 	padding: 65px 0 115px;
+	box-sizing: border-box;
 }
 
 .container {
 	width: 80%;
 	max-width: 1200px;
 	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 .flex_container {
@@ -59,6 +61,7 @@ a {
 .top_menu {
 	text-align: center;
 	margin-bottom: 70px;
+	
 }
 
 .top_menu a {
@@ -71,8 +74,12 @@ a {
 	margin-left: 40px;
 	transition: text-shadow .2s;
 	border-bottom: 1px solid transparent;
+<<<<<<< HEAD
     text-decoration: none;
     list-style: none;
+=======
+	text-decoration: none;
+>>>>>>> c4b3f33b9d9fbb4b4307ed5024724cea0ce6a35d
 }
 
 .top_menu a:first-child {
@@ -151,13 +158,18 @@ h1 {
 .three_columns {
 	background-color: #eeeeef;
 	padding-top: 60px;
+	box-sizing: border-box;
 }
 
 .three_columns li {
 	width: 30%;
 	text-align: center;
+<<<<<<< HEAD
     text-decoration: none;
     list-style: none;
+=======
+	list-style: none;
+>>>>>>> c4b3f33b9d9fbb4b4307ed5024724cea0ce6a35d
 }
 
 .three_columns li:nth-child(2) {
@@ -208,6 +220,7 @@ h3 {
 .two_columns {
 	background-color: #f5f5f5;
 	padding: 60px 0 40px;	
+	box-sizing: border-box;
 }
 
 .two_columns_info {
@@ -271,8 +284,12 @@ span {
 .privilege li {
 	text-align: left;
 	margin-bottom: 35px;
+<<<<<<< HEAD
     text-decoration: none;
     list-style: none;
+=======
+	list-style: none;
+>>>>>>> c4b3f33b9d9fbb4b4307ed5024724cea0ce6a35d
 }
 .privilege li:nth-child(2) {
 	margin-bottom: 35px;
