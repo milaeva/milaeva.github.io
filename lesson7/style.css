@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    background-color: #1D2126;
+    text-align: left;
+}
+.logo a{
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	display: inline;
+/*
+	transition: text-shadow .2s;
+	border-bottom: 1px solid transparent;
+*/
+}
+p{
+    color: #8D8F92;
+}
+wrapper{
+    width: 1200px;
+}
+
+.header{
+    background: url(image/background.png) no-repeat 0 0;
+    height: 670px;
+    width:auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.info{}
+.meet{}
+.travel{}
+.setting{}
+.features{}
+.map{}
+.contacts{}
+.footer_content{
+    background-color: #1D2126;
+    height: 30px;
+    text-align: center;
+    padding: 25px;
+}
+.footer_content p{
+    color: white;
+}
