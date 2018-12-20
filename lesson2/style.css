@@ -71,6 +71,8 @@ a {
 	margin-left: 40px;
 	transition: text-shadow .2s;
 	border-bottom: 1px solid transparent;
+    text-decoration: none;
+    list-style: none;
 }
 
 .top_menu a:first-child {
@@ -154,6 +156,8 @@ h1 {
 .three_columns li {
 	width: 30%;
 	text-align: center;
+    text-decoration: none;
+    list-style: none;
 }
 
 .three_columns li:nth-child(2) {
@@ -267,9 +271,13 @@ span {
 .privilege li {
 	text-align: left;
 	margin-bottom: 35px;
+    text-decoration: none;
+    list-style: none;
 }
 .privilege li:nth-child(2) {
 	margin-bottom: 35px;
+    text-decoration: none;
+    list-style: none;
 }
 
 .privilege p {
