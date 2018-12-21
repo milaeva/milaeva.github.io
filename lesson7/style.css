@@ -26,8 +26,11 @@ body, html{
 p{
     color: #8D8F92;
 }
-wrapper{
-    width: 1200px;
+.wrapper {
+    max-width: 1200px;
+    margin: 30px auto;
+    align-content: center;
+    display: inline-grid;
 }
 
 .header{
