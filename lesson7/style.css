@@ -65,8 +65,7 @@ h2{
 	color: #fff;
 }
 .menu{
-	display: flex;
-	margin: 0 -13px;
+  margin: 0 -13px;
 }
 .menu li{
 	padding: 6px 8px;
@@ -112,12 +111,6 @@ h1{
 .lovely h2{
 	color: white;
 }
-margin-top: 27px;
-/*
-.lovely img{
-	padding: 10px;
-}
-*/
 .lovely button_transparent{
 	padding: 10px;
 } 
@@ -152,11 +145,40 @@ margin-top: 27px;
 	width: 50px;
 	margin-right: 25px;
 	flex-shrink: 0;
- }
+}
 .number{color: white;}
 .numb{
 	display: flex;
 	justify-content: space-between;
+}
+.wrapper .R{
+	display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  text-transform: uppercase;
+  text-align: center;
+	padding-top: 12px;
+}
+.remark li a{
+	line-height: 50px;
+  text-align: center;
+  background-color: #23B7A4;
+	height: 50px;
+	width: 50px;
+	margin-right: 70px;
+	flex-shrink: 0;
+ }
+.remark a{
+	text-decoration: none;
+	color: white;
+}
+.remark li{
+	display: flex;
+	justify-content: space-between;
+}
+.rem a:hover{
+	background-color: darkorange;
+	color: black;
 }
 .meet{}
 .travel{}
