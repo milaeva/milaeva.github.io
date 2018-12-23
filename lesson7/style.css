@@ -1,58 +1,209 @@
+html{
+	scroll-behavior: smooth;
+}
 *{
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
 }
-body, html{
-    margin: 0;
-    padding: 0;
+body{
+ font-family: 'Arial', 'Calibri', sans-serif;
 }
-
+.section{
+	padding-top: 30px;
+}
+.a{
+	text-decoration: none;
+	color: #A4AEAD;
+}
+h1, h2, h4{
+	text-transform: uppercase;
+	line-height: 1.6em;
+}
+p{
+	color: #8D8F92;
+	line-height: 1.6em;
+}
+h2{
+	border-left: 8px solid #aeb4b8;
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+.wrapper {
+	max-width: 1200px;
+  margin: auto;
+}
 .logo{
-    background-color: #1D2126;
-    text-align: left;
-}
-.logo a{
-    float: right;
-    font-family: 'Open Sans', sans-serif;
+	background-color: #1D2126;
+  text-align: center;
+ }
+.logo .a{
+	display: flex;
 	font-size: 13px;
 	line-height: 1.2em;
 	text-transform: uppercase;
-	display: inline;
-/*
-	transition: text-shadow .2s;
-	border-bottom: 1px solid transparent;
-*/
+	height: 30px;
+  text-align: right;
+  padding: 6px;	
 }
-p{
-    color: #8D8F92;
-}
-.wrapper {
-    max-width: 1200px;
-    margin: 30px auto;
-    align-content: center;
-    display: inline-grid;
-}
-
 .header{
-    background: url(image/background.png) no-repeat 0 0;
-    height: 670px;
-    width:auto;
-    background-repeat: no-repeat;
-    position: relative;
+	background-color: #1D2126;
+	}
+.header .wrapper{
+	display: flex;
+	height: 80px;
+	justify-content: space-between;
+	align-items: center;
 }
-.info{}
+.wrapper .menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	text-transform: uppercase;
+	text-align: right;
+}
+.wrapper .menu li a{
+	text-decoration: none;
+	color: #fff;
+}
+.menu{
+	display: flex;
+	margin: 0 -13px;
+}
+.menu li{
+	padding: 6px 8px;
+	font-size: 14px;
+	display: list-item;
+	text-transform: uppercase;
+}
+.menu a{
+	display: block;
+  transition: color 1s;
+  padding: 7px 8px;
+}
+.home{
+	border-radius: 6px;
+	border: 2px solid #23B7A4;
+	display: inline-block;
+}
+.banner{
+	background: url(image/background.png) no-repeat 0 0;
+  height: 680px;
+  width:auto;
+  background-repeat: no-repeat;
+  position: relative;
+	background-size: cover;
+	min-width: 1200px;
+}
+h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 35px;
+	padding-top: 230px;
+	color: white;
+}
+.banner p{
+	padding-bottom: 30px;
+	display: block;
+}
+.lovely{
+	background-color: #39444D;
+}
+.lovely h2{
+	color: white;
+}
+margin-top: 27px;
+/*
+.lovely img{
+	padding: 10px;
+}
+*/
+.lovely button_transparent{
+	padding: 10px;
+} 
+.button{	
+  padding: 10px;
+	border-radius: 6px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #fff;
+	display: inline-block;
+}
+.button_background{
+	background-color: #239db7;
+}
+.button:hover {
+	background-color: #fd00ff;
+}
+.button_transparent:hover{
+	color: black;
+}
+.menu .m:hover{
+	border-radius: 6px;
+	border: 2px solid #5B6168;
+	display: inline-block;
+}
+.number{
+	line-height: 50px;
+  text-align: center;
+  background-color: #23B7A4;
+	height: 50px;
+	width: 50px;
+	margin-right: 25px;
+	flex-shrink: 0;
+ }
+.number{color: white;}
+.numb{
+	display: flex;
+	justify-content: space-between;
+}
 .meet{}
 .travel{}
-.setting{}
+.setting{
+	text-align: center;
+}
+.setting p{
+	padding: 27px 0 60px;
+  line-height: 1.5em;
+}
 .features{}
 .map{}
 .contacts{}
+.container{
+	display: flex;
+	justify-content: space-between;
+}
 .footer_content{
-    background-color: #1D2126;
-    height: 30px;
-    text-align: center;
-    padding: 25px;
+	background-color: #1D2126;
 }
 .footer_content p{
-    color: white;
+  color: white;
+}
+.social a{}
+.grid{}
+.grid .info{
+	display: grid;
+	grid-template-columns: 7fr 5fr;
+	grid-gap: 30px;
+}
+.grid .meet{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 30px;
+}
+.grid .setting {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+}
+.grid .features {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+}
+.grid .travel{
+ display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
 }
