@@ -1,0 +1,373 @@
+@media screen and (max-width:760px){
+    #label{
+			font-size: 20px;
+	}
+    .logan{
+			font-size: 15px;
+			margin-top: 30px;
+
+    }
+    .wrapper{
+			flex-wrap: wrap;
+			display: flex;
+    }
+    .menu{
+			display: block;
+			text-align: center;
+			width: 30px;
+			height: 30px;
+			color: white;
+			border: 2px solid white;
+			border-radius: 6px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 28px;
+			position: absolute;
+			left: 50%;
+			margin-left: -15px;
+			top: 7%;
+			cursor: pointer;
+    }
+    .logan1{
+		font-size: 24px;
+    }
+    .mod{
+			width: 100%;
+			justify-content: center;
+			height: 60px;
+    }
+    .block_1 li{
+			width: 100%;
+    }
+    .header .wrapper{
+			display: flex;
+			flex-wrap: wrap;
+    }
+    .wrapper .block_1{
+			width: 30%;
+			margin: 0 auto;
+			flex-wrap: wrap;
+			display: none;
+			margin-top: 40px;
+
+    }
+    #label{
+			text-align: center;
+			padding-top: 50px;
+    }
+    .logan{
+			width: 100%;
+			text-align: center;
+			padding: 0px 5px;
+    }
+    #button{
+			margin-top: 30px;
+			justify-content: center;
+			display: flex;
+			padding-bottom: 50px;
+    }
+    .about .wrapper{
+			display: flex;
+			flex-wrap: wrap;
+    }
+    .flex .logan{
+			display: flex;
+			flex-wrap: wrap;
+    }
+    
+    .left{
+		width: 100%;
+    }
+    .firsticons{
+			width: 100%;
+			justify-content: center;
+    }
+    .logan1{
+			margin: 30px auto;
+    }
+    .right{
+			width: 100%;
+    }
+
+    .pad{
+			margin-left: 0;
+			padding-left: 29px;
+    }
+    .number{
+			margin: 60px auto;
+			margin-bottom: 10px;
+    }
+    .text{
+			text-align: center;
+    }
+    .name{
+			text-align: center;
+			padding: 0;
+			width: 100%;
+    }
+    .team{
+			flex-wrap: wrap;
+			justify-content: center;
+    }
+    .member{
+			margin-bottom: 40px; 
+    }
+    #gridimg{
+			grid-template-columns: repeat(auto-fit, 100%);
+			justify-content: center;
+			margin-left: auto;
+			margin-right: auto;
+    }
+    #show{
+			margin-bottom: 30px;
+    }
+    .pack{
+			width: 100%;
+
+    }
+    .firstline{
+			flex-wrap: wrap;
+    }
+    .bott{
+			margin-bottom: 50px;
+    }
+    #features{
+			flex-wrap: wrap;
+			justify-content: center;
+    }
+    #features:last-child{
+			margin-bottom: 40px;
+    }
+    .features .wrapper{
+			padding-top: 30px;
+    }
+    #map{
+			display: none;
+    }
+    .contactinfo{
+			width: 100%;
+    }
+    .mean{
+			flex-wrap: wrap;
+    }
+    .form{
+			width: 100%;
+			margin: 0;
+			padding: 0;
+    }
+    .subscribe{
+			text-align: center;
+    }
+    .networks{
+			width: 100%;
+    }
+    .container img{
+			width: 100%;
+    }
+    .information img{
+			width: 100%;
+    }
+    .information{
+			width: 100%;
+    }
+    .about{
+			padding-bottom: 100px;
+    }
+    .send{
+			margin-bottom: 20px;
+    }
+    .topic{
+			text-align: center;
+    }
+}
+
+@media screen and (min-width:400px){
+    .information img{
+			width: 360px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+    }
+}
+@media screen and (min-width:546px) and (max-width:760px){
+    .team{
+			justify-content: space-around;
+    }
+    .pack{
+			width: 50%;
+    }
+    .work .wrapper{
+			justify-content: center;
+    }
+    div.lovely{
+			width: 100%;
+    }
+}
+
+@media screen and (min-width:761px) and (max-width:1200px){
+    div.lovely{
+			width: 100%;
+    }
+    #label{
+			font-size: 20px;
+    }
+    .logan{
+			font-size: 13px;
+    }
+    .wrapper{
+			flex-wrap: wrap;
+			display: flex;
+    }
+    .wrapper .first{
+			display: flex;
+    }
+    .slider{
+			width: 100%;
+    }
+    .logan1{
+			font-size: 24px;
+    }
+    .mod{
+			width: 100%;
+			justify-content: center;
+    }
+    .header .wrapper{
+			display: flex;
+			flex-wrap: wrap;
+    }
+    .wrapper .firstt{
+			width: 100%;
+			flex-wrap: wrap;
+			display: flex;
+    }
+    #label{
+			text-align: center;
+			padding-top: 50px;
+    }
+    .logan{
+			width: 100%;
+			text-align: center;
+			padding: 0px 5px;
+    }
+    #button{
+			margin-top: 30px;
+			justify-content: center;
+			display: flex;
+			padding-bottom: 50px;
+    }
+    .slider{
+			justify-content: center;
+    }
+    .about .wrapper{
+			display: flex;
+			flex-wrap: wrap;
+    }
+    .flex .logan{
+			display: flex;
+			flex-wrap: wrap;
+    }
+    
+    .left{
+			width: 100%;
+    }
+    .firsticons{
+			width: 100%;
+			justify-content: center;
+    }
+    .logan1{
+			margin: 30px auto;
+    }
+    .right{
+			width: 100%;
+    }
+
+    .pad{
+			margin-left: 0;
+			padding-left: 29px;
+    }
+    .number{
+			margin: 60px auto;
+			margin-bottom: 10px;
+    }
+    .text{
+			text-align: center;
+    }
+    .name{
+			text-align: center;
+			padding: 0;
+			width: 100%;
+    }
+    .team{
+			flex-wrap: wrap;
+			justify-content: space-around;
+    }
+    .member{
+			margin-bottom: 40px; 
+    }
+    #gridimg{
+			grid-template-columns: repeat(2,360px);
+			justify-content: center;
+			margin-left: auto;
+			margin-right: auto;
+    }
+    #show{
+			margin-bottom: 30px;
+    }
+    .pack{
+			width: calc(100%/2);
+			padding-left: 20px;
+
+    }
+    .firstline{
+			flex-wrap: wrap;
+    }
+    .bott{
+			margin-bottom: 50px;
+    }
+    #features{
+			flex-wrap: wrap;
+			justify-content: center;
+    }
+    #features:last-child{
+			margin-bottom: 40px;
+    }
+    .features .wrapper{
+			padding-top: 30px;
+    }
+    #map{
+			display: none;
+    }
+    .contactinfo{
+		width: 100%;
+    }
+    .mean{
+			flex-wrap: wrap;
+    }
+    .form{
+			width: 100%;
+			margin: 0;
+			padding: 0;
+    }
+    .subscribe{
+			text-align: center;
+    }
+    .networks{
+			width: 100%;
+    }
+    .information{
+			width: 50%;
+    }
+    .about{
+			padding-bottom: 100px;
+    }
+    .send{
+			margin-bottom: 20px;
+    }
+    .topic{
+			text-align: center;
+    }
+
+}
+
+
