@@ -14,6 +14,16 @@ html, body {
   padding: 0 30px;
 }
 
+span {
+  position: absolute;
+  font-weight: 900;
+  font-size: 91px;
+  bottom: -14px;
+  left: 50%;
+  transform: translate(-50%);
+  color: rgba(68, 68, 68, 0.12);
+}
+
 .banner1 {
   position: relative;
   overflow: hidden;
@@ -66,8 +76,8 @@ html, body {
   border-radius: 50%;
   position: absolute;
   z-index: -1;
-  top: -15px;
-  left: -25px;
+  top: 0;
+  left: 0;
 }
 .banner1 .banner-label {
   position: relative;
@@ -95,20 +105,164 @@ html, body {
 .button_contact {
   width: 180px;
 }
-.button_contact a {
-  margin-bottom: 35px;
-}
 .button_contact .button {
   display: inline-block;
   width: 100%;
-  height: 55px;
-  line-height: 100px;
+  height: 56px;
+  line-height: 56px;
   color: #444;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-align: center;
   position: relative;
-  transition: stroke .5s, stroke-dasharray .5s;
+}
+
+.logo {
+  background-color: #2a2a2a;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.logo .container {
+  padding: 0 15px;
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+.logo .logo_menu {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  justify-content: space-between;
+}
+.logo .menu_container {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.logo .LOGO {
+  display: inline-block;
+  line-height: 76px;
+}
+.logo .menu-list {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  line-height: 76px;
+  margin-right: 50px;
+  transition: color .4s;
+  text-decoration: none;
+}
+.logo a:hover {
+  color: yellow;
+}
+
+.banner12 {
+  background-image: url(image/base_banner_12.png);
+  background-size: cover;
+}
+.banner12 .section {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.banner12 h2 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #444;
+  margin: 130px 0 30px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.banner12 .banner12_section {
+  justify-content: center;
+}
+.banner12 .form_input {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: calc(50% - 15px*2);
+  margin-bottom: 30px;
+}
+.banner12 .form_input:nth-child(5) {
+  width: calc(100% - 15px*2);
+  margin-bottom: 30px;
+}
+
+.banner13 {
+  background-image: url(image/map.png);
+  text-align: center;
+  position: relative;
+}
+
+.map_banner {
+  position: relative;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 165px;
+  z-index: 1;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.banner13:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ffe400;
+  opacity: .8;
+}
+
+.footer_social {
+  background-color: #212121;
+  padding: 60px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_social .social_col {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  color: white;
+}
+.footer_social .social_col a:hover {
+  color: orange;
+}
+.footer_social .phone_footer {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  line-height: 47px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 25px;
+  border: 1px solid #7e7e7e;
+  border-radius: 50%;
+  transition: color .4s, border-color .4s;
+}
+
+.footer_All {
+  background-color: #2e2d2d;
+}
+.footer_All p {
+  line-height: 40px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: .02em;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,13 +3,14 @@
 <head>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>modest</title>
+  <title>marvel</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Montserrat:300,400,700,900|Muli|Poppins:400,600&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="normalize.css">
 <!--  <link rel="stylesheet" href="main.scss">-->
 	<link rel="stylesheet" href="main.css">
 </head>
 	<body>
+	<div class="wrapper">
 		<div class="banner1">
 			<div class="container">
 			<div class="banner_right">				
@@ -27,18 +28,22 @@
 		</div>					
 		
 		<div class="logo">
-			<img src="image/logo.png">
-			<nav class="menu  container">
-				<ul class="logo-menu">
-					<li><a class="menu-list">HOME</a></li>            
-					<li><a class="menu-list">SERVICE</a></li>
-					<li><a class="menu-list">ABOUT</a></li>
-					<li><a class="menu-list">PROTFOLIO</a></li>
-					<li><a class="menu-list">PAGE</a></li>
-					<li><a class="menu-list">BLOG</a></li>
-					<li><a class="menu-list">CONTACT</a></li>
-				</ul>
+		<div class="container">
+		<div class="logo_menu">
+			 <a href="#home" title="Home" class="menu_container LOGO">
+				<img src="image/logo.png">
+			</a>			
+			<nav class="menu_container menu">				
+				<a href="#" class="menu-list">HOME</a>            
+				<a href="#" class="menu-list">SERVICE</a>
+				<a href="#" class="menu-list">ABOUT</a>
+				<a href="#" class="menu-list">PROTFOLIO</a>
+				<a href="#" class="menu-list">PAGE</a>
+				<a href="#" class="menu-list">BLOG</a>
+				<a href="#" class="menu-list">CONTACT</a>
 			</nav>
+		</div>
+		</div>
 		</div>
 		<div class="banner2">
 			<div class="decoration"></div>			
@@ -376,44 +381,52 @@
 				</div>
 			</div>
 		</div>
-		<div class="banner12" >
-			
+		<div class="banner12" >			
 			<div class="container">
-				<h2 class="section">Send us Message</h2>
-				<p class="pre-section">Contact</p>
-				<form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="POST" autocomplete="on" style="background-image: image/base_banner_12.png">
-					<p><input type="text" placeholder="Fast Name (Required)"></p>
-					<p><input type="text" placeholder="Email (Required)"></p>
-					<p><input type="text" placeholder="Last Name (Required)"></p>
-					<p><input type="text" placeholder="Subject"></p>
-					<p><textarea name="comment"></textarea></p>
-				<button>SEND</button>
+				<h2 class="section banner12_section"><span>Contact</span>Send us Message</h2>				
+				<form action="#" method="POST" autocomplete="on" class="form_banner12">
+					<div class="form_input"><input type="text" placeholder="Fast Name (Required)"></div>
+					<div class="form_input"><input type="text" placeholder="Email (Required)"></div>
+					<div class="form_input"><input type="text" placeholder="Last Name (Required)"></div>
+					<div class="form_input"><input type="text" placeholder="Subject"></div>
+					<div class="form_input"><textarea name="comment" placeholder="Type your massage"></textarea></div>
+					<button class="button_contact"><a class="button">SEND</a></button>
 				</form>
 			</div>
 		</div>
 		<div class="banner13">
-			<img src="image/map.png">
-			<div class="container"><h2 class="section">Locate us on map</h2></div>
+			<div class="container">
+				<a class="map_banner">Locate us on map </a>
+				<a class="map_banner" href="#"><img src="image/location_banner.png"></a>
+			</div>
 		</div>
-		<div class="footer container">
+		<div class="footer_social">
+		<div class="container">
+		<div class="social_col">
 			<div class="col1">
-				<img src="image/phone_footer.png">
+			<div class="phone_footer"><img src="image/phone_footer.png" ></div>
 				<a>Phone : (999) 000-122-233</a>
 			</div>
 			<div class="col2">
-				<img src="image/twitter_footer.png"/>
-				<img src="image/in_footer.png"/>
-				<img src="image/fb_footer.png"/>
-				<img src="image/skype_footer.png"/>
-				<img src="image/pri_footer.png"/>
-				<img src="image/apple_footer.png"/>
+				<a href="#"><img src="image/twitter_footer.png"/></a>
+				<a href="#"><img src="image/in_footer.png"/></a>
+				<a href="#"><img src="image/fb_footer.png"/></a>
+				<a href="#"><img src="image/skype_footer.png"/></a>
+				<a href="#"><img src="image/pri_footer.png"/></a>
+				<a href="#"><img src="image/apple_footer.png"/></a>
 			</div>
-			<div class="col3">
-				<img src="image/9_footer.png">
-				<p>123 state, South America, 205</p>
+			<div class="col3"><div class="phone_footer">
+				<a><img src="image/9_footer.png"></a></div>
+				<a>123 state, South America, 205</a>
 			</div>
-		</div>
-		<footer class="container">All Rights Reserved © Themexpert 2016</footer>
-		
+			</div>
+			</div>
+			</div>
+		<footer class="footer_All">
+			<div class="container">
+				<p>All Rights Reserved © Themexpert 2016</p>
+			</div>
+		</footer>
+	</div>	
 	</body>
 </html>
