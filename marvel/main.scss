@@ -554,7 +554,9 @@ ul {
   display: flex;
   justify-content: center;
 }
-.worked {
+.worked {    
+	min-width: 100px;
+	min-height: 36px;
   margin: 0 7px;
 }
 .works {
@@ -599,6 +601,8 @@ ul {
 }
 .pix_img {
   padding-top: 90%;
+	min-height: 100%;
+	max-height: 620px;
 }
 .pix_img img {
   width: 100%;
@@ -742,10 +746,13 @@ ul {
   padding-bottom: 105px;
 }
 .price_item {
-  width: 30%;
-  z-index: 1;
+	max-width: 342px;
+	z-index: 1;
 }
 .rate {
+	width: 100%;
+	max-width: 342px;
+	max-height: 200px;
   background-size: cover;
 }
 .rate h6 {
@@ -754,7 +761,7 @@ ul {
   font-size: 15px;
   text-transform: uppercase;
   text-align: center;
-  padding: 30px 0 20px;
+	padding-top: 30px;
   letter-spacing: 2px;
 }
 .rate .worth {
@@ -765,6 +772,7 @@ ul {
   text-align: center;
   text-transform: uppercase;
   line-height: normal;
+	margin-top: -15px;
 }
 .rate .worth sup {
   font-weight: 400;
@@ -780,7 +788,7 @@ ul {
   font-size: 13px;
   color: #dbdbdb;
   text-align: center;
-  margin-top: 20px;
+  margin-top: -50px;
   padding-bottom: 30px;
 }
 .rate_accent {
@@ -806,21 +814,23 @@ ul {
   padding: 20px 0;
   border-bottom: 1px solid #f0f0f0;
 }
-.cost_list p:first-child {
-  padding-top: 80px;
-}
+//.cost_list p:first-child {
+//  padding-top: 80px;
+//}
 .banner8_button {
   display: block;
   text-align: center;
   margin-top: 4px;
-  width: 296px;
+ 	min-width: 342px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 14px;
   padding: 15px 0;
-  transition: background-color .4s, color .4s;
+	margin-right: -15px;
+//  transition: background-color .4s, color .4s;
 }
 .banner8_button:hover {
+	margin-right: -15px;
   background-color: #ffe400;
   color: #ef08c1;
 }
@@ -1049,7 +1059,7 @@ ul {
   font-size: 14px;
   margin-bottom: 30px;
   padding: 0 15px;
-	text-align: center;
+	text-align: left;
 }
 .great_button {
   text-align: center;
@@ -1185,13 +1195,22 @@ ul {
   align-items: center;
 }
 .col2 a {
-  margin: 15px;
-  color: #fff;
-  transition: color .4s;
+  margin: 25px;  
 }
-.col2 a:hover {
-  color: #ffe400;
-}
+//.col2:hover .social{
+// 	color: #ffe400;	
+//}
+//.col_a{
+//	width: 80px;
+//  height: 80px;
+//  line-height: 47px;
+//  text-align: center;
+//  margin-bottom: 30px;
+//  color: #fff;
+//  font-size: 25px;
+//  border: 1px solid #7e7e7e;
+//  border-radius: 50%;
+//}
 .footer-contact {
   font-style: normal;
   position: relative;

@@ -660,6 +660,8 @@ ul {
 }
 
 .worked {
+  min-width: 100px;
+  min-height: 36px;
   margin: 0 7px;
 }
 
@@ -712,6 +714,8 @@ ul {
 
 .pix_img {
   padding-top: 90%;
+  min-height: 100%;
+  max-height: 620px;
 }
 
 .pix_img img {
@@ -879,11 +883,14 @@ ul {
 }
 
 .price_item {
-  width: 30%;
+  max-width: 342px;
   z-index: 1;
 }
 
 .rate {
+  width: 100%;
+  max-width: 342px;
+  max-height: 200px;
   background-size: cover;
 }
 
@@ -893,7 +900,7 @@ ul {
   font-size: 15px;
   text-transform: uppercase;
   text-align: center;
-  padding: 30px 0 20px;
+  padding-top: 30px;
   letter-spacing: 2px;
 }
 
@@ -905,6 +912,7 @@ ul {
   text-align: center;
   text-transform: uppercase;
   line-height: normal;
+  margin-top: -15px;
 }
 
 .rate .worth sup {
@@ -923,7 +931,7 @@ ul {
   font-size: 13px;
   color: #dbdbdb;
   text-align: center;
-  margin-top: 20px;
+  margin-top: -50px;
   padding-bottom: 30px;
 }
 
@@ -954,23 +962,20 @@ ul {
   border-bottom: 1px solid #f0f0f0;
 }
 
-.cost_list p:first-child {
-  padding-top: 80px;
-}
-
 .banner8_button {
   display: block;
   text-align: center;
   margin-top: 4px;
-  width: 296px;
+  min-width: 342px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 14px;
   padding: 15px 0;
-  transition: background-color .4s, color .4s;
+  margin-right: -15px;
 }
 
 .banner8_button:hover {
+  margin-right: -15px;
   background-color: #ffe400;
   color: #ef08c1;
 }
@@ -1236,7 +1241,7 @@ ul {
   font-size: 14px;
   margin-bottom: 30px;
   padding: 0 15px;
-  text-align: center;
+  text-align: left;
 }
 
 .great_button {
@@ -1395,13 +1400,7 @@ ul {
 }
 
 .col2 a {
-  margin: 15px;
-  color: #fff;
-  transition: color .4s;
-}
-
-.col2 a:hover {
-  color: #ffe400;
+  margin: 25px;
 }
 
 .footer-contact {
