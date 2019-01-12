@@ -1,0 +1,369 @@
+@media (max-width:1140px){
+    .banner1-label{
+			font-size: 30px;
+			padding-top: 20px;
+			width: 100%;
+			text-align: center;
+    }
+    .banner1_image{
+			display: block;
+    }
+    .container{
+			display: flex;
+			flex-wrap: wrap;
+			padding: 10px;
+    }   
+    .text{
+			text-align: center;
+    }
+    .button_contact{
+			display: inline;
+			margin: 20px auto;
+    }
+
+    .menu{
+			flex-wrap: wrap;
+			width: auto;
+			height: 700px;
+    }
+    .menu li{
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #f7e002;
+        height: 30px;
+        padding: 20px 30px;
+    }
+    .logo{
+        width: 160px;
+        transform:translateX(-160px);
+    }
+    .text{
+        width: auto;
+    }
+    .banner3_brief{
+        width: 100%;
+        text-align: center;
+    }
+    .banner3 .small{
+        width: 100%;
+        text-align: center;
+    }
+    .menu{
+        display: flex;
+    }
+    .logo img{
+        height: 30px;
+        width: 130px;
+    }
+    .header-menu{
+        display: block;
+    }
+    .header-logo{
+        width: auto;
+    }
+    .about-features{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about-statistic{
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .about-information{
+        width: 50%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .about-phone{
+        display: none;
+    }
+    .about-impressive{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .about .pre-logan{
+        top: 5.5%;
+    }
+    .offer-cycle{
+        display: none;
+    }
+    .offer-logo{
+        display: none;
+    }
+    .offer .main{
+        margin-top: 0;
+    }
+    .offer .pre-logan{
+        display: none;
+    }
+    .offer{
+        min-height: auto;
+        padding-bottom: 30px;
+    }
+    .actions .container{
+        padding-top: 30px;
+    }
+    .actions{
+        min-height: auto;
+    }
+    .features{
+        min-height: auto;
+    }
+    .features .pre-logan{
+        display: none;
+    }
+    .features .logan{
+        padding-top: 0;
+    }
+    .features-distinguishing{
+        padding-top: 0;
+    }
+    .features-row{
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 0;
+    }
+    .features-column{
+        margin-top: 30px;
+        width: auto;
+    }
+    .portfolio .logan{
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .portfolio .pre-logan{
+        display: none;
+    }
+    .portfolio-buttons{
+        flex-wrap: wrap;
+        padding-left: 0;
+        height: auto;
+        width: 100%;
+    }
+    .portfolio .first{
+        width: 100%;
+    }
+    .portfolio-item{
+        width: 100%;
+        display: block;
+        margin-top: 5px;
+    }
+    .portfolio-grid{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .portfolio-footer{
+        padding-left: 10px;
+    }
+    .portfolio-links{
+        left: 25%;
+        top: -70%;
+    }
+    .service-wrapper{
+        width: 100%;
+    }
+    .service .logan{
+        text-align: center;
+        padding: 30px 20px 50px 0;
+    }
+    .service{
+        min-height: auto;
+    }
+    .price .logan{
+        padding-top: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .price-item{
+        width: 300px;
+    }
+    .price-container{
+        flex-wrap: wrap;
+    }
+    .price img{
+        width: 300px;
+    }
+    .price-container{
+        justify-content: center;
+    }
+    .price .pre-logan{
+        display: none;
+    }
+    .price-list{
+        height: auto;
+    }
+    .features-subscribe{
+        font-size: 12px;
+        width: auto;
+    }
+    .features-tittle{
+        font-size: 14px;
+    }
+    .price-container{
+        margin-top: 40px;
+    }
+    .price-item:hover {
+        transform: scale(0.9);
+    }
+    .price-item{
+        margin-top: 50px;
+    }
+    .team-item{
+        width: auto;
+    }
+    .team{
+        min-height: auto;
+    }
+    .price-explaining{
+        margin-top: 0;
+    }
+    .team .pre-logan{
+        display: none;
+    }
+    .team .logan{
+        margin-top: 0;
+        padding-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .team img{
+        width: 270px;
+    }
+    .team-border{
+        width: 200px;
+    }
+    .team-footer{
+        width: 270px;
+        margin-bottom: 40px;
+    }
+    .team-container{
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .team-information{
+        width: 270px;
+        min-height: 442px;
+    }
+    .team-link{
+        width: 100%;
+        margin-left: 0;
+    }
+    .team-text{
+        width: auto;
+        padding: 0 5px;
+        font-size: 12px;
+    }
+    .actionsSecond .container{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .actionsSecond-item{
+        width: 100%;
+    }
+    .actionsSecond-button{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .actionsSecond{
+        min-height: auto;
+    }
+    .actionsSecond .second{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .news .logan{
+        padding-top: 0;
+    }
+    .news .pre-logan{
+        display: none;
+    }
+    .news-container{
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .news-item:hover {
+        transform: scale(0.9);
+    }
+    .news-item{
+        margin-top: 30px;
+    }
+    .news-container{
+        padding-bottom: 50px;
+    }
+    .contact .logan{
+        padding-top: 30px;
+    }
+    .contact{
+        min-height: auto;
+    }
+    .contact .container{
+        padding-bottom: 30px;
+    }
+    .contact .pre-logan{
+        display: none;
+    }
+    .contact form{
+        margin-top: 30px;
+    }
+    .contact-name{
+        width: 100%;
+    }
+    .contact-comment{
+        display: none;
+    }
+    .map .logan{
+        font-size: 25px;
+    }
+    .footer-links{
+        padding:0;
+        width: 100%;
+        justify-content: space-around;
+
+    }
+    .footer-info{
+        padding: 20px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .contact-place{
+        margin-left: 40px;
+    }
+    .footer{
+        min-height: auto;
+    }
+    a.logan{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (min-width:500px) and (max-width:1140px){
+    .portfolio-grid{
+        grid-template-columns: repeat(auto-fill, minmax(475px, 1fr));
+    }
+    .team-item{
+        margin-left: 30px;
+    }
+    .news-item{
+        margin-left: 30px;
+    }
+}
+@media(min-width:640px) and (max-width:1140px){
+    .price-item{
+        margin-left: 30px;  
+    }
+    .about-item{
+        margin-left: 30px;
+    }
+}
+@media(min-width:765px) and (max-width:1140px){
+    .features-column{
+        width: 400px;
+    }
+}
