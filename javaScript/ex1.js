@@ -17,25 +17,47 @@ nextPrime:
   }
 
 //ex3
+//var num = 1;
+//
+//for ( ; num < 100; num++ ) {
+//
+//if ( num % 5 === 0 && num % 3 === 0 ){
+//
+//	 document.write( num, " = FizzBuzz" )
+//
+//}else if ( num % 5 === 0 ){
+//
+//	 document.write( num, " = Buzz" );
+//
+//}else if ( num % 3 === 0 ){
+//
+//	 document.write( num, " = Fizz" );
+//
+//}else{
+//
+//	 console.log( num, "" );
+//
+//}
+//}
 var num = 1;
 
-for ( ; num < 100; num++ ) {
-
-if ( num % 5 === 0 && num % 3 === 0 ){
-
-	 document.write( num, " = FizzBuzz" )
-
-}else if ( num % 5 === 0 ){
-
-	 document.write( num, " = Buzz" );
-
-}else if ( num % 3 === 0 ){
-
-	 document.write( num, " = Fizz" );
-
-}else{
-
-	 console.log( num, "" );
-
-}
+for(var i = 1; i <= 100; i++ ){
+	
+  if((i % 3 == 0) && (i % 5 == 0)){
+		
+    console.log('FizzBuzz');
+		
+  } else if ((i % 3 == 0)) {
+		
+    console.log('Buzz');
+		
+  } else if ((i % 5 == 0)) {
+		
+    console.log('Fizz');
+  }
+	
+  else {
+		
+    console.log( i );
+  }
 }
