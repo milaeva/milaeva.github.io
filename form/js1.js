@@ -17,7 +17,7 @@ var generateError = function (text){
 	var error = document.createElement('div')
       error.className = 'error'
       error.style.color = 'red'
-      error.innerHTML = text
+      error.innerHTML = 'cannot be blank'
       return error
 }
 
@@ -34,7 +34,7 @@ var checkFieldsPresence = function (){
     if (!fields[i].value) {
       console.log('This field is required', fields[i])
       var error = generateError ('Cannot be blank')
-      form[i].parentElement.insertBefore(error, fields[i])
+      form[i].parentElement.insertBefore(error, fields[firstName])
     }
   }
 }
