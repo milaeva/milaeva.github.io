@@ -1,0 +1,28 @@
+form{
+	max-width: 600px;
+/*	text-align: center;*/
+}
+
+.field {
+	clear:both; 
+	text-align:right; 
+/*	line-height:25px;*/
+/*	padding: 10px;*/
+}
+
+label {
+	float:left; 
+	padding-right:10px;
+/*	padding: 10px;*/
+}
+.main {
+	float:left;
+}
+/*
+button:valid {
+  border-color: green;
+}
+
+button:invalid {
+  border-color: red;
+}*/
