@@ -39,13 +39,13 @@ var checkFieldsPresence = function (){
   }
 }
 
-var checkPasswordMatch = function() {
-	if (password.value !== password.value) {
-    console.log('This field is not valid')
-   var error = generateError ('This field is not valid')
-    password.parentElement.insertBefore(error, password)
-  }
-}
+//var checkPasswordMatch = function() {
+//	if (password.value !== password.value) {
+//    console.log('This field is not valid')
+//   var error = generateError ('This field is not valid')
+//    password.parentElement.insertBefore(error, password)
+//  }
+//}
 
 form.addEventListener('submit', function (event) {
   event.preventDefault()
@@ -54,5 +54,6 @@ form.addEventListener('submit', function (event) {
 	
 	checkFieldsPresence()
 
-  checkPasswordMatch()
+//  checkPasswordMatch()
+	alert('Validation passed.')
 })
