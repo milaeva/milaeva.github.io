@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    margin: 20px;
+    padding: 15px;
+    background-color: lightgrey;
+}
+
+P {
+  color: black;
+	text-align: right;
+	padding: 20px;
+}
+a{
+	text-decoration: none;
+	margin: 20px;
+}
+h3 {
+  color: darkblue;
+	padding: 20px;
+}
+
+.wrapper {
+font-family: arial;
+}
+.wrapper {}
+.wrapper p {
+    margin-bottom: 25px;
+    font-size: 15px;
+    background-color: deepskyblue;
+    text-align: left;
+}
+
+p:hover {
+    background: lightblue;
+    color: blue;
+}
+.slider{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: stretch;
+	columns: 4;
+	column-width: 25%;
+}
+.item{
+/*	width: 25%;*/
+}

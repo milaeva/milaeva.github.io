@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Track	D:\github\milaeva.github.io\javaScript\prototype\script.js	/^var Track = function(params) {$/;"	function	line:1
+playTrack	D:\github\milaeva.github.io\javaScript\prototype\script.js	/^  this.playTrack = function() {$/;"	function	line:5
+Track.playTrack	D:\github\milaeva.github.io\javaScript\prototype\script.js	/^  this.playTrack = function() {$/;"	method	line:5
+playTrack	D:\github\milaeva.github.io\javaScript\prototype\script.js	/^  Track.prototype.playTrack = function() {$/;"	function	line:9
+Track	D:\github\milaeva.github.io\javaScript\prototype\script.js	/^  Track.prototype.playTrack = function() {$/;"	class	line:9
+Track.playTrack	D:\github\milaeva.github.io\javaScript\prototype\script.js	/^  Track.prototype.playTrack = function() {$/;"	method	line:9
+YoutubeTrack	D:\github\milaeva.github.io\javaScript\prototype\script.js	/^var YoutubeTrack = function(params) {};$/;"	function	line:14
+YoutubeTrack	D:\github\milaeva.github.io\javaScript\prototype\script.js	/^var YoutubeTrack = function(params) {};$/;"	function	line:14
