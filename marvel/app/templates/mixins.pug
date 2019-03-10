@@ -1,0 +1,118 @@
+mixin slide(props)
+  - var {title, text} = props
+  div.banner__slide
+    div.banner__title
+      span.h1 !{title}
+      p= text
+      
+mixin nav-link(href, name)
+  a.nav__link(href= href)= name
+
+mixin title(mod, title, subtitle)
+  h2(class= mod)= title
+    span= subtitle
+
+mixin single-button(mod, text)
+  a.button(class =mod href="#")= text
+
+mixin content-button(mod, text)
+  a.content-buttons__item(class= mod href="#")= text
+
+mixin advantage-item(props)
+  -var {icon, title, descr} = props
+  div.advantage__item.advantage-item.cell
+    div.advantage-item__content
+      div.advantage-item__icon
+        i(class= icon)
+      div.advantage-item__title
+        h4= title
+      div.advantage-item__descr
+        p= descr
+
+mixin results-item(numeral, title)
+  div.cell.results__item.results-item
+    div.results-item__content
+      div.results-item__numeral= numeral
+      div.results-item__title
+        p= title
+
+mixin responsive-list__item(text)
+  li.responsive-list__item
+    span.icon-star= text
+
+mixin features-item(icon, title, text)
+  div.cell.features__item.features-item
+    div.features-item__icon
+      div(class= icon)
+    div.features-item__descr.features-descr
+      h4.features-descr__title= title
+      p.features-descr__text= text
+
+mixin work-tabs(props)
+  - var {href = '#', text} = props
+  a.tabs__item.tabs-item(href= href)
+    p= text
+
+mixin portfolio-item(image, alt, title, subtitle)
+  div.portfolio__item.portfolio-item
+    div.portfolio-item__img
+      img(src= image alt= alt)
+    div.portfolio-item__hover
+      h5= title
+        b= subtitle
+      div.portfolio-item__icons
+        a.icon-link.link(href="#" title="link")
+        a.icon-search.link(href="#" title="search")
+
+mixin service-item(icon, title, descr)
+  div.cell.service-content__item
+    div.service-content__icon
+      i(class= icon)
+    div.service-content__title
+      h4= title
+    div.service-content__descr
+      p= descr
+
+mixin employee-item(props)
+  - var {href = '#', photo, name, position, descr} = props
+  div.cell.team-employee__item.employee-item
+    div.employee-item__photo
+      img(src= photo alt= name)
+    div.employee-item__descr
+      h6= name
+      p= position
+    div.employee-item__hover.employee-hover
+      div.employee-hover__content
+        h5= name
+        h6= position
+        p= descr
+      div.employee-hover__social
+        a.icon-twitter(href= href)
+        a.icon-linkedin-squared(href= href)
+        a.icon-facebook-squared(href= href)
+        a.icon-skype(href= href)
+        a.icon-pinterest-squared(href= href)
+        a.icon-apple(href= href)
+
+mixin news-item(props)
+  - var {href = '#', title, count, text, image} = props
+  div.cell.news__item.news-item
+    div.news-item__poster
+      time.date(datetime="2016-06-23") 23 July 2016
+      img(src= image alt="alt")
+    h5.news-item__title= title
+    p.news-item__note= count
+    p.news-item__info= text
+    div.news-item__button
+      a(href= href) Read more
+
+mixin form-input(props)
+  - var {required= false, holder, name, type} = props
+  div.cell.contact-form__item
+    input(type= type name= name required= required  placeholder= holder)
+
+mixin footer-contact(props)
+  - var {href, text, icon} = props
+  .cell.footer__item.footer-contact
+    div.footer-contact__icon(class= icon)
+    a.footer-contact__link(href= href)= text

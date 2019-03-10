@@ -1,0 +1,25 @@
+section.work#portfolio
+  div.container
+    div.row.row_align-center
+      +title('cell work__title middle', 'Our portfolio', 'work')
+    div.row.row_align-center
+      div.cell.tabs
+        a.tabs__item.tabs-item(href="#")
+          div.tabs-item__dots
+            -var i = 0
+            while i < 9
+              div
+              - i++
+        +work-tabs({text: 'Business'})
+        +work-tabs({text: 'Corporate'})
+        +work-tabs({text: 'Branding'})
+        +work-tabs({text: 'Photography'} )
+  div.portfolio
+    +portfolio-item('img/img_1.jpg', 'alt', 'Fullwidth Slideshow', '- Fashion')
+    +portfolio-item('img/img_2.jpg', 'alt', 'Fullwidth Slideshow', '- Fashion')
+    +portfolio-item('img/img_3.jpg', 'alt', 'Fullwidth Slideshow', '- Fashion')
+    +portfolio-item('img/img_4.jpg', 'alt', 'Fullwidth Slideshow', '- Fashion')
+    +portfolio-item('img/img_5.jpg', 'alt', 'Fullwidth Slideshow', '- Fashion')
+    +portfolio-item('img/img_6.jpg', 'alt', 'Fullwidth Slideshow', '- Fashion')
+    +portfolio-item('img/img_7.jpg', 'alt', 'Fullwidth Slideshow', '- Fashion')
+    +portfolio-item('img/img_8.jpg', 'alt', 'Fullwidth Slideshow', '- Fashion')

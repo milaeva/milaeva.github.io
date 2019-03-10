@@ -1,0 +1,74 @@
+.button {
+  font-family: $title-ff;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #444444;
+  padding: 15px 35px;
+  border: 1px solid;
+  display: inline-block;
+  transition: background-color .4s, border-color .4s;
+
+  &:hover {
+    background-color: $c-main;
+    border-color: $c-main; 
+  }
+}
+
+.content-buttons {
+  text-align: center;
+  @include if-smaller-than(500px) {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    @include if-smaller-than(500px) {
+      margin-right:0;
+    }
+    
+    text-align: center;
+    font-family: $title-ff;
+    font-weight: 400;
+    font-size: 18px;
+    display: inline-block;
+    width: 225px;
+    height: 62px;
+    color: $c-main;
+    background-color: #000;
+    border: 1px solid #a6a6a6;
+    line-height: 62px;
+    margin-right: 25px;
+    transition: background-color .4s, border-color .4s, color .4s;
+
+    &:first-child {
+      @include if-smaller-than(500px) {
+        margin-bottom: 15px;
+      }
+    }
+
+    &:hover {
+      background-color: $c-main;
+      border-color: $c-main;
+      color: #000;
+    }
+  }
+
+  &_transparent {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+  }
+
+  &_white {
+    font-family: $comment-ff;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: #fff;
+    color: #212121;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}

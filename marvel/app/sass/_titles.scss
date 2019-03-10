@@ -1,0 +1,85 @@
+.h1 {
+  @include if-smaller-than(535px) {
+    font-size: 35px;
+  }
+  
+  font-family: $title-ff;
+  font-weight: 900;
+  font-size: 60px;
+  color: #444444;
+}
+
+h2 {
+  @include if-smaller-than(700px) {
+    font-size: 24px;
+  }
+
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: $title-ff;
+  font-weight: 700;
+  font-size: 36px;
+  color: #444;
+  margin-top: 130px;
+  margin-bottom: 30px;
+  position: relative;
+
+  span {
+    @include if-smaller-than(700px) {
+      font-size: 72px;
+    }
+
+    @include if-smaller-than(400px) {
+      display: none;
+    }
+
+    position: absolute;
+    font-weight: 900;
+    font-size: 91px;
+    bottom: -14px;
+    left: 50%;
+    transform: translate(-50%);
+    color: rgba(#444, .12);
+  }
+
+  &.middle {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &.small {
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    span {
+      @include if-smaller-than(550px) {
+        display: none;
+      }
+
+      font-size: 72px;
+      bottom: -12px;
+      left: -2px;
+      transform: none;
+    }
+  }
+
+  &.white {
+    @include if-smaller-than(375px) {
+      font-size: 35px;
+    }
+
+    color: #fdfdfd;
+    font-size: 44px;
+    margin: 0;
+  }
+}
+
+h4 {
+  font-family: $title-ff;
+  font-weight: 700;
+  font-size: 18px;
+  color: #444;
+  text-transform: uppercase;
+}

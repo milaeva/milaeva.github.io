@@ -1,0 +1,78 @@
+.who-we-are {
+  position: relative;
+  background-image: url(../img/girl_bg.jpg);
+  background-size: cover;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .6;
+  }
+
+  &__decoration {
+    @include decoration;
+    z-index: -1;
+  }
+}
+
+.who-we-are-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 135px;
+
+  .content-buttons {
+    @include if-smaller-than(760px) {
+      text-align: center;
+    }
+
+    @include if-smaller-than(510px) {
+      margin: 0 auto;
+    }	
+
+    a {
+      @include if-smaller-than(510px) {
+        margin: 10px 0;
+      } 
+    }
+  }
+
+  .row {
+    @include if-smaller-than(760px) {
+      width: 100%;
+    }
+
+    margin: 0 auto;
+    width: 68%;
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+  }
+
+  .logo {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+
+    img {
+      width: 229px;
+      height: 41px;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  p {
+    color: #fdfdfd;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+}

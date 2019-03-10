@@ -1,0 +1,140 @@
+.contact {
+  background-image: url(../img/contact_bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+  &__title {
+    @include if-smaller-than(900px) {
+      padding-top: 120px;
+    }
+
+    padding-top: 160px;
+  }
+
+  &__form {
+    @include if-smaller-than(900px) {
+      margin-top: 120px;
+    }
+
+    margin-top: 170px;
+  }
+}
+
+.contact-form {
+  padding-bottom: 125px;
+
+  &__item {
+    @include if-smaller-than(750px) {
+      @include cell-width(100%);
+    }
+
+    @include cell-width(50%);
+    margin-bottom: 30px;
+
+    input {
+      width: 100%;
+      padding: 20px;
+      font-family: $main-ff;
+      font-weight: 600;
+      font-size: 18px;
+      color: #808080;
+      border: 1px solid #dedede;
+      outline-color: $c-main;
+
+      &::-webkit-input-placeholder {
+        font-size: 14px;
+      }
+
+      &:-moz-placeholder {
+        font-size: 14px;
+      }
+
+      &:focus {
+        color: #000;
+        &::-webkit-input-placeholder {
+          color: $c-main;
+        }
+      }
+    }
+
+    textarea {
+      width: 100%;
+      padding: 20px;
+      font-family: $main-ff;
+      font-weight: 600;
+      font-size: 18px;
+      color: #808080;
+      border: 1px solid #dedede;
+      outline-color: $c-main;
+      resize: none;
+      height: 505px;
+
+      &::-webkit-input-placeholder {
+        font-size: 14px;
+      }
+
+      &:-moz-placeholder {
+        font-size: 14px;
+      }
+
+      &:focus {
+        color: #000;
+
+        &::-webkit-input-placeholder {
+          color: $c-main;
+        }
+      }
+    }
+
+    &:nth-child(5) {
+      @include cell-width(100%);
+    }
+  }
+
+  &__button {
+
+    .button {
+      font-size: 17px;
+      font-weight: 700;
+      color: #000;
+      cursor: pointer;
+      padding: 18px 48px;
+    }
+  }
+}
+
+.map {
+  background-image: url(../img/map.jpg);
+  text-align: center;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $c-main;
+    opacity: .8;
+  }
+
+  &__link {
+    @include if-smaller-than(375px) {
+      font-size: 25px;
+    }
+    
+    position: relative;
+    color: #000;
+    font-family: $title-ff;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 165px;
+    z-index: 1;
+
+    span {
+      margin-left: 10px;
+      font-size: 25px;
+    }
+  }
+}

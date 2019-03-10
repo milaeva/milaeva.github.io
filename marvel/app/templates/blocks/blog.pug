@@ -1,0 +1,33 @@
+section.blog#blog
+  div.container
+    div.row.row_align-center
+      +title('cell middle blog__title', 'Recent blog post', 'news')
+    div.row.blog__news.news
+      +news-item({
+        title: 'Single Image Post',
+        count: 'by Admin  .  in Logo  .  1 Comment',
+        text: 'Lorem Ipsum is simply dummy text of the rinting and typesette industry lorem Ipsum has ...',
+        image: 'img/img_bot_1.jpg'
+      })
+      +news-item({
+        title: 'gallery Image Post',
+        count: 'by Admin  .  in Logo  .  1 Comment',
+        text: 'Lorem Ipsum is simply dummy text of the rinting and typesette industry lorem Ipsum has ...',
+        image: 'img/img_bot_2.jpg'
+      })
+      div.cell.news__item.news-item
+        div.news-item__poster
+          time.date(datetime="2016-06-23") 23 July 2016
+          img(src="img/img_bot_3.jpg" alt="alt")
+          a.video(href="#")
+        h5.news-item__title Letest video Post
+        p.news-item__note by Admin  .  in Logo  .  1 Comment
+        p.news-item__info Lorem Ipsum is simply dummy text of the rinting and typesette industry lorem Ipsum has ...
+        div.news-item__button
+          a(href="#") Read more
+      +news-item({
+        title: 'Single Image Post',
+        count: 'by Admin  .  in Logo  .  1 Comment',
+        text: 'Lorem Ipsum is simply dummy text of the rinting and typesette industry lorem Ipsum has ...',
+        image: 'img/img_bot_4.jpg'
+      })

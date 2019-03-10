@@ -1,0 +1,17 @@
+section.responsive
+  div.container
+    div.row
+      div.responsive__decoration
+        img.lamp(src="img/lamp.png" alt="alt")
+        div.circle-border.circle-border_size-4(data-jarallax data-jarallax-element="0 50")
+        img.run(data-jarallax data-jarallax-element="0 50" src="img/run.png" alt="alt")
+      div.cell.responsive__title
+        +title('small', 'Boost Your Website', 'responsive').small
+      div.cell.responsive__descr
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etia fermentum vel libero eget interdum semper libero.
+      ul.cell.responsive__list.responsive-list
+        +responsive-list__item('Responsive Design & Retina Ready.')
+        +responsive-list__item('Business Solution Any Company.')
+        +responsive-list__item('Powerful Admin Panel.')
+        +responsive-list__item('24/7 Support.')
+      +single-button('cell', 'purchase')

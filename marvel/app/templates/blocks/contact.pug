@@ -1,0 +1,36 @@
+section.contact#contact
+  div.container
+    div.row.row_align-center
+      +title('cell middle contact__title', 'Send us Message', 'contact')
+    form.row.contact__form.contact-form(action="#" method="POST")
+      +form-input({
+        required: true,
+        holder: 'First Name (Required)',
+        name: 'first-name',
+        type: 'text'
+      })
+      +form-input({
+        required: true,
+        holder: 'Last Name (Required)',
+        name: 'last-name',
+        type: 'text'
+      })
+      +form-input({
+        required: true,
+        holder: 'Email (Required)',
+        name: 'email',
+        type: 'email'
+      })
+      +form-input({
+        holder: 'Subject',
+        name: 'subject',
+        type: 'text'
+      })
+      div.cell.contact-form__item
+        textarea(placeholder="Type your massage"  name="message")
+      div.cell.contact-form__button
+        +single-button('', 'send')
+section.map
+  div.container
+    a.map__link(href="#") Locate us on map
+      span &or;

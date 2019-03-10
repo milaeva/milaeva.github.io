@@ -1,0 +1,76 @@
+.responsive {
+
+  & .button {
+    margin-bottom: 115px;
+    padding: 10px 18px;
+    font-size: 13px;
+  }
+
+  &__decoration {
+    @include decoration;
+    background-color: #fafafa;
+
+    .lamp {
+      position: absolute;
+      left: -320px;
+      top: 0;	
+    }
+
+    .run {
+      @include if-smaller-than(1024px) {
+        display: none;
+      }
+
+      position: absolute;
+      right: -590px;
+      bottom: 120px;
+    }
+  }
+
+  & .row {
+    @include if-smaller-than(830px) {
+      width: 70%;
+    }
+
+    @include if-smaller-than(685px) {
+      width: 100%;
+    }
+
+    width: 52%;
+    position: relative;
+  }
+
+  &__title {
+    @include if-smaller-than(685px) {
+      margin-top: 120px;
+    }
+    
+    margin-top: 200px;
+    margin-bottom: 40px;
+  }
+
+  &__descr {
+    font-family: $main-ff;
+    font-size: $main-fz;
+    margin-bottom: 50px;
+  }
+}
+
+.responsive-list {
+  width: 100%;
+  margin-bottom: 16px;
+
+  &__item {
+    margin-bottom: 15px;
+    font-size: $main-fz;
+
+    span {
+      margin-right: 5px;
+      transition: color .4s;
+    }
+
+    &:hover span {
+      color: $c-main;
+    }
+  }
+}

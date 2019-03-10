@@ -1,0 +1,24 @@
+include ./mixins
+
+-var title = 'My title'
+
+block vars
+
+
+
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    link(rel="shortcut icon" href="img/favicon.png" type="image/png")
+    title #{title}
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    include ./blocks/css
+  body
+    div.preloader-2#page-preloader
+      div.loader
+        span#load_perc
+    block content
+    include ./blocks/footer
+    include ./blocks/js

@@ -1,0 +1,25 @@
+{
+  "name": "marvel",
+  "version": "1.0.0",
+  "description": "my first project with gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kate ilchenko",
+  "license": "ISC",
+  "dependencies": {
+    "save-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^4.0.0",
+    "gulp-image": "^4.4.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "sort-css-media-queries": "^1.4.3"
+  }
+}

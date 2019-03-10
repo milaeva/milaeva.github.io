@@ -1,0 +1,63 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  font-family: $main-ff;
+  color: $c-text;
+}
+
+main {
+  overflow: hidden;
+}
+
+.icon-lock-1, .icon-glasses {
+  background-color: #73c8b7;
+}
+
+.icon-lightbulb, .icon-direction {
+  background-color: #31aae2;
+}
+
+.icon-mic {
+  background-color: #eb768c;
+}
+
+.icon-laptop {
+  background-color: #ebd175;
+}
+
+.container {
+  padding: 0 $grid-gap;
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -$grid-gap;
+  margin-right: -$grid-gap;
+  &_align-center {
+    justify-content: center;
+  }
+}
+
+.cell {
+  margin-left: $grid-gap;
+  margin-right: $grid-gap;
+}
+
+p {
+  letter-spacing: .02em;
+  line-height: 1.8em;
+}
+
+a {
+  text-decoration: none;
+}

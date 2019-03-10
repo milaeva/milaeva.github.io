@@ -1,0 +1,38 @@
+section.about#about
+  div.container
+    div.row.row_align-center
+      div.cell.about__title
+        +title('', 'This is the one page polo', 'about')
+      div.cell.about__descr
+        p Molestie ultricies quam. Donec at sem. Praesent pretium. Maorbi quis nulla vehicula felsd laoreet. Sed ullamcorper arcu ente. Sed tempus tempor cild  Nulla vierra ultrices magnal Nam rutrum congue diam.do eiusmod tempor incididunt ut dolore magna aliqua. Utdi eni ad minim veniam, quis nostrud exercitationconsequat. 
+      div.content-buttons
+        +content-button('', 'More info')
+        +content-button('', 'Join Experience')
+    div.row.advantage
+      div.about__decoration
+        div.circle-border.circle-border_size-3(data-jarallax data-jarallax-element="0 100")
+        img(src="img/ipad.png" alt="")
+        //icon, title, descr
+      +advantage-item({
+        icon: 'icon-star-half-alt', 
+        title: 'Responsive Design', 
+        descr: 'Lorem ipsum dolor sit amet, consectetur adipiscing elitelquam. Fusce quis nulla tincidunt interdum magna vitae.'
+      })
+      +advantage-item({
+        icon: 'icon-globe', 
+        title: 'Awesome Features', 
+        descr: 'Lorem ipsum dolor sit amet, consectetur adipiscing elitelquam. Fusce quis nulla tincidunt interdum magna vitae.'
+      })
+      +advantage-item({
+        icon: 'icon-lock-1', 
+        title: 'Powerful Security', 
+        descr: 'Lorem ipsum dolor sit amet, consectetur adipiscing elitelquam. Fusce quis nulla tincidunt interdum magna vitae.'
+      })
+    div.results.row.row_align-center
+      div.results__title
+        h2 HERE’RE SOME IMPRESSIVE NUMBERS ABOUT US
+      div.row.results__numbers
+        +results-item('7533', 'Project Complate')
+        +results-item('4222', 'On Going Project')
+        +results-item('6980 +', 'Happy Client')
+        +results-item('100%', 'Positive Feedback')

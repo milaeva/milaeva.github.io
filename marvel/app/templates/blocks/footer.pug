@@ -1,0 +1,24 @@
+footer.footer
+  div.container
+    div.row
+      +footer-contact({
+        href: 'tel:+999000122233',
+        icon: 'icon-mobile',
+        text: 'Phone : (999) 000-122-233'
+      })
+      div.cell.footer__item.footer__social
+        a.icon-twitter(href="#")
+        a.icon-linkedin-squared(href="#")
+        a.icon-facebook-squared(href="#")
+        a.icon-skype(href="#")
+        a.icon-pinterest-squared(href="#")
+        a.icon-apple(href="#")
+      +footer-contact({
+        href: '#',
+        icon: 'icon-globe',
+        text: '123 state, South America, 205'
+      })
+
+div.footer-copy
+  div.container
+    p All Rights Reserved © Themexpert 2016
