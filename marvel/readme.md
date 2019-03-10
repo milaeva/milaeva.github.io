@@ -6,4 +6,4 @@
 * css (scss)
 * js (jquery)
 
-[DEMO](https://milaeva.github.io/marvel/index.html)
+[marvel](https://milaeva.github.io/marvel/dist/index.html#)
